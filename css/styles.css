@@ -346,21 +346,16 @@ footer {
     
 }
 .project-item {
-    border: 1px solid var(--border-projects);
+    
     width: calc((100% - 2 * 30px) / 3);
     
    
-    
-}
-    .img-projects {
-    margin-bottom: 20px;
     
 }
 .main-portfolio {
     margin-bottom: 94px;
 }
 .projects-text-container {
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 20px;
+    padding: 20px 24px;
+    border: 1px solid var(--border-projects);
 }
