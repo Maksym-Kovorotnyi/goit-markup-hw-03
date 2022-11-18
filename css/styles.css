@@ -161,6 +161,7 @@ border-bottom: 1px solid #ECECEC;
 }
 .superiority-text {
     line-height: 1.7;
+    width: 270px;
 }
 .list-superiority {
     list-style: none;
