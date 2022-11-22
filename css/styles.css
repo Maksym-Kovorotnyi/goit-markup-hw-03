@@ -63,10 +63,6 @@ border-bottom: 1px solid #ECECEC;
 .header-container {
     display: flex;
     align-items: center;
-    height: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 15px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -84,8 +80,8 @@ border-bottom: 1px solid #ECECEC;
     line-height: calc(31/26);
     letter-spacing: 0.03em; 
     margin-right: 93px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .nav-element{
@@ -94,8 +90,7 @@ border-bottom: 1px solid #ECECEC;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    
 }
 
 .nav-element:hover,
@@ -109,14 +104,19 @@ border-bottom: 1px solid #ECECEC;
 .nav-list-item:not(:last-child){
     margin-right: 50px;
 }
+.nav-list-item,
+.list-contacts-item{
+padding-bottom: 32px;
+padding-top: 32px;
+}
 .contact {
     color: var(--text);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .contact:hover,
 .contact:focus {
@@ -124,8 +124,6 @@ border-bottom: 1px solid #ECECEC;
 }
 .list-nav {
     display: flex;
-    
-    
 }
 
 .contacts-container {
@@ -138,7 +136,6 @@ border-bottom: 1px solid #ECECEC;
 /* Герой */
 .hero {
     background-color:var(--bcg-secondary);
-    width: 1600px;
     padding-bottom: 200px;
     padding-top: 200px;
     text-align: center;
@@ -259,7 +256,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 /* підвал */
-footer {
+.footer {
     background-color: var(--bcg-secondary);
     padding-top: 60px;
     padding-bottom: 60px;
